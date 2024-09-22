@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="The Internet Demo Website Test Suite">
+    <listeners>
+        <listener class-name="com.theInternet.listeners.TestListener"/>
+    </listeners>
+    <test name="Test All links are clickable chrome browser">
+       <!-- <parameter name ="browser" value = "chrome"/> -->
+        <classes>
+            <class name="com.theInternet.tests.HomePageTests"/>
+
+        </classes>
+    </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
